@@ -105,7 +105,7 @@ function Homepage() {
                 </div>
             </div>
 
-
+            
 
             <div className='second-section'>
                 <h1 className="second-heading">
