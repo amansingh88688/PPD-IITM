@@ -1,0 +1,129 @@
+.sixth-section{
+    background-color: #4cadae3b;
+}
+.last-footer{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    height: 13rem;
+    text-align: center;
+    margin: auto 0;
+    width: 100%;
+}
+.last-footer img{
+    width: 100px;
+    height: 100px;
+    margin: auto 0;
+    border-radius: 50%;
+}
+.footer2 ul{
+    vertical-align: middle;
+    padding: 0;
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.footer2 ul li{
+    text-align: left;
+    padding: 5px 0;
+    list-style: none;
+    transition: 0.2s;
+    letter-spacing: 0.5px;
+}
+.footer1, .footer3{
+    display: flex;
+    justify-content: space-between;
+    margin: auto 20px;
+}
+.footer1 p, .footer3 p {
+    letter-spacing: 0.5px;
+    margin: auto 50px;
+    line-height: 3rem;
+    text-align: left;
+}
+.footer3 p, .footer1 p{
+    line-height: 2rem;
+    text-align: right;
+}
+.footer1 p {
+    text-align: left;
+
+}
+.linkedin-link, .iitm-link{
+    text-decoration: none;
+    margin-left: 20px;
+    color: black;
+    transition: 0.2s;   
+}
+.iitm-link{
+    text-decoration: underline;
+}
+.linkedin-link:hover, .iitm-link:hover {
+    color: #25a9ae;
+}
+.footer2 ul li:hover{
+    color: #25a9ae;
+}
+.creator-info{
+    font-size: 13px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .last-footer{
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+    }
+    #foot2{
+        order:3;
+    }
+    #foot3{
+        order: 2;
+    }
+    .last-footer img{
+        width: 70px;
+        height: 70px;
+        margin: auto 0;
+        border-radius: 50%;
+    }
+    .footer1, .footer3{
+        margin: 0;
+        margin-top: 20px;
+        padding: 10px;
+    }
+    .footer1 p, .footer3 p {
+        letter-spacing: 0.5px;
+        margin: 5px;
+        width: fit-content;
+        line-height: 1.5;
+        font-size: 14px;
+    }
+    .linkedin-link, .iitm-link{
+        margin-left: 5px;
+    }
+    .footer2 ul li{
+        text-align: left;
+        padding: 5px 0;
+        display: inline-block;
+        margin: 5px;
+        font-size: 12px;
+        text-decoration: underline;
+        font-weight: bold;
+    }
+    .creator-info{
+        font-size: 10px;
+    }
+
+}

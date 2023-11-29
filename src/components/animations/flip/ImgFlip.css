@@ -1,0 +1,98 @@
+.body2{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container2{
+    width: 500px;
+    height: 200px;
+    perspective: 1000px;
+    margin: 50px 30px;
+}
+.container2:hover > .card2{
+    cursor:pointer;
+    transform: rotateX(-180deg);
+}
+.card2{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: 0.5s;
+    transform-style: preserve-3d;
+}
+.front2, .back2{
+    width: auto;
+    height: 100%;
+    border-radius: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 15px;
+    position: absolute;
+    backface-visibility: hidden;
+}
+.front2 {
+    background-color: white;
+    text-align: center;
+    /* color: #084244; */
+}
+
+.logo-hover2{
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    border-radius: 20px;  
+}
+.back2{
+    background-color: white;
+    transform: rotateX(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    padding: 0px;
+    text-align: center;
+    word-spacing: 2px;
+    line-height: 1.5rem;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .body2{
+        margin: 20px 0;
+        justify-content: left;
+        align-items: left;
+    }
+    .container2{
+        width: 100%;
+        height: 150px;
+        margin: 15px 10px;
+    }
+    .front2, .back2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 150px;
+        width: 100%;
+    }
+    .front2 img{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        margin: 0 0 0 0px;
+        justify-content: center;
+    }
+    .container2:hover > .card2{
+        transform: rotateX(-180deg);
+    }
+    .back2{
+        transform: rotateX(180deg);
+        padding: 0px;
+    }
+
+
+}
