@@ -7,7 +7,6 @@ import Professional from './components/professional-dev/Professional';
 import Blog from './components/blog/Blog';
 import Media from './components/media/Media';
 import Navbar from './components/navbar/Navbar';
-import Footbar from './components/footer/Footer';
 
 function App() {
   return (
