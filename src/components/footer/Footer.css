@@ -29,6 +29,7 @@
     list-style: none;
     transition: 0.2s;
     letter-spacing: 0.5px;
+    color: rgb(71, 69, 69);
 }
 .footer1, .footer3{
     display: flex;
@@ -61,11 +62,8 @@
 .linkedin-link:hover, .iitm-link:hover {
     color: #25a9ae;
 }
-.footer2 ul li{
-    color: #135153;
-}
 .footer2 ul li:hover{
-    color: black;
+    color: #25a9ae;
 }
 .creator-info{
     font-size: 13px;
