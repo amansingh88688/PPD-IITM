@@ -25,19 +25,19 @@ const Navbar = () => {
       <div className="">
         <img src={ppd_logo} alt="" className="logo" />
       </div>
-      <div className="main-nav-list">
-          <div className="hamburger-nav" onClick={toggleVisibility}>
+      <div className="main-nav-list" onClick={toggleVisibility}>
+          <div className="hamburger-nav" >
             <span class="bar"></span>
             <span class="bar"></span>
             <span class="bar"></span>
           </div>
           <ul className={`content nav-links ${divVisible ? 'visible' : 'hidden'}`}>
-            <NavLink to='/' className='customlink'><li>HOME</li></NavLink>
-            <NavLink to='/personal' className='customlink'><li>PERSONAL DEVELOPMENT</li></NavLink>
-            <NavLink to='/professional' className='customlink'><li>PROFESSIONAL DEVELOPMENT</li></NavLink>
-            <NavLink to='/blog' className='customlink'><li>BLOG</li></NavLink>
-            <NavLink to='/media' className='customlink'><li>MEDIA</li></NavLink>
-            <NavLink to='/about' className='customlink'><li>ABOUT US</li></NavLink>
+            <NavLink to='/' className='customlink'><li><div className='div-of-navlink'>HOME</div></li></NavLink>
+            <NavLink to='/personal' className='customlink'><li><div className='div-of-navlink'>PERSONAL DEVELOPMENT</div></li></NavLink>
+            <NavLink to='/professional' className='customlink'><li><div className='div-of-navlink'>PROFESSIONAL DEVELOPMENT</div></li></NavLink>
+            <NavLink to='/blog' className='customlink'><li><div className='div-of-navlink'>BLOG</div></li></NavLink>
+            <NavLink to='/media' className='customlink'><li><div className='div-of-navlink'>MEDIA</div></li></NavLink>
+            <NavLink to='/about' className='customlink'><li><div className='div-of-navlink'>ABOUT US</div></li></NavLink>
           </ul>
       </div>
       <div class="">

@@ -105,7 +105,7 @@ function Homepage() {
                 </div>
             </div>
 
-            
+                 
 
             <div className='second-section'>
                 <h1 className="second-heading">
@@ -144,7 +144,7 @@ function Homepage() {
             <div className="ninth-section">
                 <div className="" id="child1">
                     <p className="">
-                        These Personal and Professional Development courses have made a significant impact by <b>helping students since 2010.</b> With over <b>23,700 registrations,</b> they have provided valuable opportunities for personal and professional growth. Offering a selection of <b>17 courses</b>, these programs have been instrumental in equipping individuals with essential skills. Notably, they have benefitted from the expertise of numerous alumni who have served as course facilitators, sharing practical insights and experiences to guide current participants. This collaborative approach, engaging a diverse participant base and experienced alumni facilitators, has played a crucial role in how these courses have positively contributed to students' personal and professional development.
+                        These Personal and Professional Development courses have made a significant impact by <b>helping students since 2010.</b> With over <b>23,700 registrations,</b> they have provided valuable opportunities for personal and professional growth. Offering a selection of <b>17 courses</b>, these programs have been instrumental in equipping individuals with essential skills. Notably, they have benefitted from the expertise of <b>numerous alumni who have served as course facilitators, sharing practical insights and experiences to guide current participants.</b> This collaborative approach, engaging a diverse participant base and experienced alumni facilitators, has played a crucial role in how these courses have positively contributed to students' personal and professional development.
                     </p>
                 </div>
                 <div className="" id="child2">

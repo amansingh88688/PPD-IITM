@@ -85,11 +85,10 @@
 
 /* ----------------------------------------third section------------------------------------------------------------ */
 .third-section{
-    position: relative;
     text-align: center;
     height: 100%;
     width: 100%;
-    /* max-width: 500px; */
+    position: relative;
     background-color: #f5f9fc;
 }
 .third-section .empty{
@@ -99,9 +98,18 @@
 .third-section .filled{
     display: none;
 }
+.regis{
+    display: flex;
+    margin-top: -5px;
+    font-size: 30px;
+    font-weight: bold;
+}
 .number1, .number2, .number3, .number4, .number5, .number6{
     margin: 0;  
 }
+
+
+
 .regis, .course, .basket, .industry, .since, .alumni{
     display: flex;
     margin-top: -5px;
@@ -110,57 +118,61 @@
 }
 .regis{
     margin-top: 0;
+    font-size: 100%;
 }
 .registration {
     position: absolute;
     z-index: 10;
-    top: 13rem;
-    left: 51rem;
-    font-size: 30px;
+    top: 25%;
+    left: 54%;
+    font-size: 130%;
     color: #47a414;   
 }
 .courses {
     position: absolute;
     z-index: 10;
-    top: 13rem;
-    left: 36.5rem;
-    font-size: 40px;
+    top: 28%;
+    left: 37.5%;
+    font-size: 180%;
     color: #119ee0;   
 }
 .baskets{
     position: absolute;
     z-index: 10;
-    top: 8.5rem;
-    left: 24.5rem;
-    font-size: 40px;
+    top: 18%;
+    left: 25%;
+    font-size: 200%;
     color: #c815b4;   
 }
 .industry-exp{
     position: absolute;
     z-index: 10;
-    top: 20rem;
-    left: 64.5rem;
-    font-size: 40px;
+    top: 40%;
+    left: 68%;
+    font-size: 200%;
     color: #E14F43;
 }
 .since-year{
     position: absolute;
     z-index: 10;
-    top: 30.5rem;
-    left: 55.5rem;
-    font-size: 25px;
+    top: 60%;
+    left: 58%;
+    font-size: 150%;
     color: #DD8317;   
 }
 .alumnis{
     position: absolute;
     z-index: 10;
-    top: 24rem;
-    left: 29rem;
-    font-size: 50px;
+    top: 48%;
+    left: 30.5%;
+    font-size: 230%;
     color: #DB1977;   
 }
 .alumni{
-    font-size: 40px;;
+    font-size: 100%;
+}
+.industry{
+    font-size: 80%;
 }
 
 
@@ -255,7 +267,7 @@
     }
     .first-section h1{
         font-size: 40px;
-        margin-left: 30px;
+        margin-left: 10px;
     }
     .moving-text{
         font-size: 55px;

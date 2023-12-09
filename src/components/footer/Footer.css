@@ -61,8 +61,11 @@
 .linkedin-link:hover, .iitm-link:hover {
     color: #25a9ae;
 }
+.footer2 ul li{
+    color: #135153;
+}
 .footer2 ul li:hover{
-    color: #25a9ae;
+    color: black;
 }
 .creator-info{
     font-size: 13px;

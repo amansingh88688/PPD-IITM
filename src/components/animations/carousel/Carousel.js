@@ -127,7 +127,7 @@ const Carousel = () => {
                 <div className="slide">
                     <Link to="https://padlet.com/play2learniitm/ppd-course-testimonials-h1g8ps4pejb8x1cv/wish/2730048269" style={{ textDecoration: 'none', color: 'inherit' }}>
                             <div className="upper-part">
-                            <img src="https://v1.padlet.pics/1/image.webp?t=c_limit%2Cdpr_2%2Ch_707%2Cw_565&url=https%3A%2F%2Fstorage.googleapis.com%2Fpadlet-uploads%2F2164115952%2F3aa6b3b898cf425ce29254d6a06b01ed%2FWhatsApp_Image_2023_10_03_at_4_45_14_PM.jpeg%3FExpires%3D1701353950%26GoogleAccessId%3D778043051564-q79bsd8mc40b0bl82ikkrtc3jdofe4dg%2540developer.gserviceaccount.com%26Signature%3DOEMgVc57KOZhD3EUAg0A8QyTz2pIppZOhzFUprIlCILgw57te5R7QF1nJEmmLy8pWSgrhgsIvqobpEVgALxL6CptskRzOL41MzaT9890nS1bSCasTO29j8Dofl2LX4vgcp82MCSDlxMNvwRXsXJy4dKkJ8wj4aD2eCKbPCPvD5c%253D%26original-url%3Dhttps%253A%252F%252Fpadlet-uploads.storage.googleapis.com%252F2164115952%252F3aa6b3b898cf425ce29254d6a06b01ed%252FWhatsApp_Image_2023_10_03_at_4_45_14_PM.jpeg" alt="" className="" />
+                            <img src="https://v1.padlet.pics/1/image.webp?t=c_limit%2Cdpr_2%2Ch_707%2Cw_565&url=https%3A%2F%2Fstorage.googleapis.com%2Fpadlet-uploads%2F2164115952%2F3aa6b3b898cf425ce29254d6a06b01ed%2FWhatsApp_Image_2023_10_03_at_4_45_14_PM.jpeg%3FExpires%3D1702702729%26GoogleAccessId%3D778043051564-q79bsd8mc40b0bl82ikkrtc3jdofe4dg%2540developer.gserviceaccount.com%26Signature%3DY9z0fT9Yq5xEe%252FgboEwZDmJjuHb0DnfaHTHnBK1pgZBTIqPjCPHhwDrUKjCYtREnBm4GCS%252FngszUCigGHkGmgDOT418Q2%252FcyeW0hDcT79QPm3Crv0aK7yx%252BrhYm2w64e1UHPpTSfiJvwaras9jnZJdrFdt8qeRkA%252BXL7bCccCbs%253D%26original-url%3Dhttps%253A%252F%252Fpadlet-uploads.storage.googleapis.com%252F2164115952%252F3aa6b3b898cf425ce29254d6a06b01ed%252FWhatsApp_Image_2023_10_03_at_4_45_14_PM.jpeg" alt="" className="" />
                             <h2 className="">Deekshitha Bandaru,<br/>IIT Madras</h2>
                         </div>
                         <hr className='style-one'/>
@@ -139,7 +139,6 @@ const Carousel = () => {
                 <div className="slide">
                     <Link to="https://padlet.com/play2learniitm/ppd-course-testimonials-h1g8ps4pejb8x1cv/wish/2733973172" style={{ textDecoration: 'none', color: 'inherit' }}>
                         <div className="upper-part">
-                            <img src={dummy_img} alt="" className="" />
                             <h2 className="">Aman Yogesh Kulwal,<br/>IIT Madras</h2>
                         </div>
                         <hr className='style-one'/>
@@ -151,7 +150,8 @@ const Carousel = () => {
                 <div className="slide">
                     <Link to="https://padlet.com/play2learniitm/ppd-course-testimonials-h1g8ps4pejb8x1cv/wish/2766551273" style={{ textDecoration: 'none', color: 'inherit' }}>
                         <div className="upper-part">
-                            <img src="https://v1.padlet.pics/1/image.webp?t=c_limit%2Cdpr_2%2Ch_400%2Cw_399&url=https%3A%2F%2Fstorage.googleapis.com%2Fpadlet-uploads%2F2196926962%2Fa8988297019d1af9b6803bda1fb7bf12%2F1681768747227.jpeg%3FExpires%3D1701672722%26GoogleAccessId%3D778043051564-q79bsd8mc40b0bl82ikkrtc3jdofe4dg%2540developer.gserviceaccount.com%26Signature%3DqVlKTKgWqGdFDR8vpr3oUiXzdIFMoyYgQQMbsgH0RWWYcaf8QRrtONajtWtGUGxTv6UdibbVhMyYazBixi6imUFAenyUY6nA5K%252FUfS9PZY%252B8AlkDNfpt69W3UFjC%252F8nqtEeh9EDVn%252FgdBX5WtlDxck79p0lT%252FhneTL6k%252FMjyI4g%253D%26original-url%3Dhttps%253A%252F%252Fpadlet-uploads.storage.googleapis.com%252F2196926962%252Fa8988297019d1af9b6803bda1fb7bf12%252F1681768747227.jpeg" alt="" className="" />
+                            <img src={dummy_img} alt="" className="" />
+                            <img src="https://v1.padlet.pics/1/image.webp?t=c_limit%2Cdpr_2%2Ch_400%2Cw_399&url=https%3A%2F%2Fstorage.googleapis.com%2Fpadlet-uploads%2F2196926962%2Fa8988297019d1af9b6803bda1fb7bf12%2F1681768747227.jpeg%3FExpires%3D1702485458%26GoogleAccessId%3D778043051564-q79bsd8mc40b0bl82ikkrtc3jdofe4dg%2540developer.gserviceaccount.com%26Signature%3DFkdKxl%252Fz2Q00x5B5wiTGY6MIwnyj5X6xjBP8o7%252BsII%252FEasFqHT3wkmJ8iHh0jtDN%252Fk3ziFf9B1k4%252Fu35byW35b7O8E7bhcnTSC7uXHCqn53RprMkIHaaSWWCYKYPvMvAljrJYtBFrN6PPvRiQV8wbO4%252Fij%252BCRN0HE%252BqKhUQ3s3c%253D%26original-url%3Dhttps%253A%252F%252Fpadlet-uploads.storage.googleapis.com%252F2196926962%252Fa8988297019d1af9b6803bda1fb7bf12%252F1681768747227.jpeg" alt="" className="" />
                             <h2 className="">Shishir Chaurasiya,<br/>IIT Madras</h2>
                         </div>
                         <hr className='style-one'/>

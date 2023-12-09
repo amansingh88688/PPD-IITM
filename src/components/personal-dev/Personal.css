@@ -1,0 +1,20 @@
+.course{
+    width: 100%;
+}
+
+.personal-card{
+    margin-top: 100px;
+}
+.footer-pers{
+    margin-top: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+    .personal-card{
+        margin-top: 70px;
+    }
+    .footer-pers{
+        margin-top: 100px;
+    }
+}
+

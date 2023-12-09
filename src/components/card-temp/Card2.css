@@ -1,0 +1,160 @@
+.card-temp-2{
+    height: 300px;
+    position: relative;
+}
+.sq-small-2{
+    width: 150px;
+    height: 150px;
+    background-color: #00AEFF;
+    transform: rotate(45deg);
+    position: absolute;
+    border-radius: 10px;
+    left: 50px;
+    top: 70px;
+    transition: 0.5s ease
+}
+.sq-med-2{
+    width: 150px;
+    height: 150px;
+    background-color: #95E4F9;
+    transform: rotate(45deg);
+    position: absolute;
+    border-radius: 10px;
+    left: 100px;
+    top: 70px;
+    transition: transform 0.5s ease;
+}
+.sq-lar-2{
+    width: 200px;
+    height: 200px;
+    background-color: #EBF2F7;
+    transform: rotate(45deg);
+    position: absolute;
+    border-radius: 10px;
+    left: 160px;
+    top: 45px;
+}
+.rectangle-1-2{
+    width: 50%;
+    height: 130px;
+    position:absolute;
+    background-color: #95E4F9;
+    border-radius: 10px;
+    left: 400px;
+    top: 79px;
+    cursor: pointer; 
+    font-size: 20px;
+    color: #11A1D3;
+    font-weight:600;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.rectangle-2-2{
+    width: 15rem;
+    height: 150px;
+    position:absolute;
+    background-color: #95E4F9;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 2px rgba(103, 101, 101, 0.36);
+    left: 178px;
+    top: 70px;
+    cursor: pointer; 
+    font-size: 25px; 
+    font-weight: bold;  
+    color: #11A1D3;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.course-name-2{
+    margin-bottom: 5px;
+    padding: 0 5px;
+}
+.course-no-2{
+    margin-top: 0px;
+    color: #00AEFF;
+}
+.course-desc-2{
+    padding: 10px 40px;
+}
+
+
+
+
+.RtoL-card-2{
+    transform: scaleX(-1);
+}
+.mirror-text-2{
+    transform: scaleX(-1);
+}
+
+
+
+
+
+@media only screen and (max-width: 1024px) {
+    .rectangle-1-2{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .card-temp-2{
+        height: 150px;
+    }
+    .sq-small-2{
+        width: 60px;
+        height: 60px;
+        border-radius: 3px;
+        left: 30px;
+        top: 70px;
+    }
+    .sq-med-2{
+        width: 60px;
+        height: 60px;
+        border-radius: 3px;
+        left: 50px;
+        top: 70px;
+    }
+    .sq-lar-2{
+        width: 100px;
+        height: 100px;
+        border-radius: 5px;
+        left: 78px;
+        top: 49px;
+    }
+    .rectangle-1-2{
+        width: 160px;
+        height: 60px;
+        border-radius: 2px;
+        left: 180px;
+        top: 69px;
+        font-size: 8px;
+        
+    }
+    .rectangle-2-2{
+        width: 100px;
+        height: 60px;
+        border-radius: 2px;
+        left: 85px;
+        top: 69px;
+        font-size: 13px;  
+    }
+    .course-name-2{
+        margin-bottom: 0;
+        padding: 0px;
+    }
+    .course-no-2{
+        margin-top: 3px;
+    }
+    .course-desc-2{
+        padding: 0 10px;
+    }
+    .reduce-size{
+        font-size: 10px;
+    }
+
+}
