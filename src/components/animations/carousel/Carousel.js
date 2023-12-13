@@ -139,6 +139,7 @@ const Carousel = () => {
                 <div className="slide">
                     <Link to="https://padlet.com/play2learniitm/ppd-course-testimonials-h1g8ps4pejb8x1cv/wish/2733973172" style={{ textDecoration: 'none', color: 'inherit' }}>
                         <div className="upper-part">
+                            <img src={dummy_img} alt="" className="" />
                             <h2 className="">Aman Yogesh Kulwal,<br/>IIT Madras</h2>
                         </div>
                         <hr className='style-one'/>
@@ -150,7 +151,6 @@ const Carousel = () => {
                 <div className="slide">
                     <Link to="https://padlet.com/play2learniitm/ppd-course-testimonials-h1g8ps4pejb8x1cv/wish/2766551273" style={{ textDecoration: 'none', color: 'inherit' }}>
                         <div className="upper-part">
-                            <img src={dummy_img} alt="" className="" />
                             <img src="https://v1.padlet.pics/1/image.webp?t=c_limit%2Cdpr_2%2Ch_400%2Cw_399&url=https%3A%2F%2Fstorage.googleapis.com%2Fpadlet-uploads%2F2196926962%2Fa8988297019d1af9b6803bda1fb7bf12%2F1681768747227.jpeg%3FExpires%3D1702485458%26GoogleAccessId%3D778043051564-q79bsd8mc40b0bl82ikkrtc3jdofe4dg%2540developer.gserviceaccount.com%26Signature%3DFkdKxl%252Fz2Q00x5B5wiTGY6MIwnyj5X6xjBP8o7%252BsII%252FEasFqHT3wkmJ8iHh0jtDN%252Fk3ziFf9B1k4%252Fu35byW35b7O8E7bhcnTSC7uXHCqn53RprMkIHaaSWWCYKYPvMvAljrJYtBFrN6PPvRiQV8wbO4%252Fij%252BCRN0HE%252BqKhUQ3s3c%253D%26original-url%3Dhttps%253A%252F%252Fpadlet-uploads.storage.googleapis.com%252F2196926962%252Fa8988297019d1af9b6803bda1fb7bf12%252F1681768747227.jpeg" alt="" className="" />
                             <h2 className="">Shishir Chaurasiya,<br/>IIT Madras</h2>
                         </div>
@@ -160,7 +160,7 @@ const Carousel = () => {
                         </div>
                     </Link>
                 </div>
-                <div className="slide">
+                <div className="slide slide-final">
                     <Link to="https://padlet.com/play2learniitm/ppd-course-testimonials-h1g8ps4pejb8x1cv" style={{ textDecoration: 'none', color: 'inherit' }}>
                         {/* <div className="upper-part">
                             <img src="https://v1.padlet.pics/1/image.webp?t=c_limit%2Cdpr_2%2Ch_400%2Cw_399&url=https%3A%2F%2Fstorage.googleapis.com%2Fpadlet-uploads%2F2196926962%2Fa8988297019d1af9b6803bda1fb7bf12%2F1681768747227.jpeg%3FExpires%3D1701672722%26GoogleAccessId%3D778043051564-q79bsd8mc40b0bl82ikkrtc3jdofe4dg%2540developer.gserviceaccount.com%26Signature%3DqVlKTKgWqGdFDR8vpr3oUiXzdIFMoyYgQQMbsgH0RWWYcaf8QRrtONajtWtGUGxTv6UdibbVhMyYazBixi6imUFAenyUY6nA5K%252FUfS9PZY%252B8AlkDNfpt69W3UFjC%252F8nqtEeh9EDVn%252FgdBX5WtlDxck79p0lT%252FhneTL6k%252FMjyI4g%253D%26original-url%3Dhttps%253A%252F%252Fpadlet-uploads.storage.googleapis.com%252F2196926962%252Fa8988297019d1af9b6803bda1fb7bf12%252F1681768747227.jpeg" alt="" className="" />
@@ -170,6 +170,7 @@ const Carousel = () => {
                         <div className="comment-final">
                             <b style={{color:"red", fontSize:"20px"}}>Read all feebacks here</b>
                         </div>
+                        <hr className='style-one'/>
                     </Link>
                 </div>
 

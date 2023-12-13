@@ -1,7 +1,7 @@
 import React from 'react'
 import './Card.css';
 
-function Card({num, className, course_name, course_no, course_desc}) {
+function Card({num, className, course_name, course_no, course_desc, course_link}) {
     console.log(num);
   return (
     <div className={`card-temp ${className || ''}`}>
@@ -9,7 +9,7 @@ function Card({num, className, course_name, course_no, course_desc}) {
         <div className="sq-med"></div>
         <div className="sq-lar"></div>
         <div className={num%2 === 0 ? 'rectangle-1 mirror-text':'rectangle-1'}>
-            <div className='course-desc'>{course_desc}</div>
+            <a href={course_link} className='course-desc'>{course_desc} <span className='view-more'>view more</span></a>
         </div>
         <div className={num%2 === 0 ? 'rectangle-2 mirror-text':'rectangle-2'}>
             <div className='course-name'>{course_name}</div>

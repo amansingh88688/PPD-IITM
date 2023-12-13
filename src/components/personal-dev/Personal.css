@@ -1,17 +1,53 @@
+.heading-pers{
+    margin-top: 120px;
+    font-size: 70px;
+    text-align: center;
+    /* color: #084244; */
+    color: black;
+    animation: fadeInFromCenter 1s ease-in-out;
+    animation-fill-mode: both;
+}
 .course{
     width: 100%;
 }
-
 .personal-card{
-    margin-top: 100px;
+    margin-top: 20px;
 }
 .footer-pers{
     margin-top: 50px;
 }
 
+
+hr.style14{
+    border: 0;
+    height: 3px;
+    width: 70%;
+    margin-top: 0;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), black, rgba(0, 0, 0, 0));
+    animation: fadeInFromCenter 2s ease-in-out;
+    animation-fill-mode: both;
+}
+@keyframes fadeInFromCenter {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+
+
+
+
+
+
 @media only screen and (max-width: 768px) {
-    .personal-card{
-        margin-top: 70px;
+    .heading-pers{
+        font-size: 50px;
+        animation: fadeInFromCenter 1.5s ease-in-out;
     }
     .footer-pers{
         margin-top: 100px;

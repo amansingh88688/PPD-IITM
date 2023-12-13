@@ -21,7 +21,7 @@
     height: 350px;
     width: 500px;
     background-color: #43c0c428;
-    padding: 20px;
+    padding: 10px 20px 20px 10px;
     margin: auto 40px;
     box-shadow: 5px 5px 10px #08424499;
 }
@@ -30,6 +30,8 @@
 }
 .upper-part{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .upper-part img{
     width: 100px;
@@ -99,6 +101,11 @@ hr.style-one{
     border: 0;
     height: 1px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+.slide-final{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 

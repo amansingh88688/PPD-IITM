@@ -1,3 +1,51 @@
-.professional-card{
-    margin-top: 100px;
+.heading-proff{
+    margin-top: 120px;
+    font-size: 70px;
+    text-align: center;
+    /* color: rgb(11, 140, 200); */
+    animation: fadeInFromCenter 1s ease-in-out;
+    animation-fill-mode: both;
 }
+.course{
+    width: 100%;
+}
+
+.professional-card{
+    margin-top: 20px;
+}
+.footer-proff{
+    margin-top: 50px;
+}
+hr.style14{
+    border: 0;
+    height: 3px;
+    width: 70%;
+    margin-top: 0;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), black, rgba(0, 0, 0, 0));
+    animation: fadeInFromCenter 2s ease-in-out;
+    animation-fill-mode: both;
+}
+@keyframes fadeInFromCenter {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .heading-proff{
+        font-size: 50px;
+        animation: fadeInFromCenter 1.5s ease-in-out;
+    }
+    .footer-proff{
+        margin-top: 100px;
+    }
+}
+

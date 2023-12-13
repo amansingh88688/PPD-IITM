@@ -1,3 +1,6 @@
+body{
+    overflow-x:hidden;
+}
 .card-temp{
     height: 300px;
     position: relative;
@@ -80,18 +83,32 @@
 }
 .course-desc{
     padding: 10px 40px;
+    color: #059488; 
+    text-decoration: none;
+}
+.view-more{
+    font-size: 13px;
+    color: rgb(55, 53, 53);
 }
 
-
-
-
-.RtoL-card{
-    transform: scaleX(-1);
+.mirror-text {
+    transform: scaleX(-1)!important;
 }
-.mirror-text{
-    transform: scaleX(-1);
+.RtoL-card {
+    transform: scaleX(-1)!important;
 }
 
+.animate-card {
+    opacity: 0;
+    transform: translateX(70px); 
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+    backface-visibility: hidden;
+  }
+  
+.animate-card.visible {
+opacity: 1;
+transform: translateX(0);
+}
 
 
 
@@ -99,6 +116,13 @@
 @media only screen and (max-width: 1024px) {
     .rectangle-1{
         font-size: 15px;
+    }
+    .animate-card {
+        transform: translateY(70px); 
+      }
+      
+    .animate-card.visible {
+    transform: translateY(0);
     }
 }
 @media only screen and (max-width: 768px) {
@@ -152,6 +176,11 @@
     }
     .course-desc{
         padding: 0 10px;
+    }
+    .view-more{
+        font-size: 8px;
+        color: rgb(55, 53, 53);
+        text-decoration: underline;
     }
 
 }
