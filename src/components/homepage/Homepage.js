@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import "./Homepage.css";
 import CountUp from 'react-countup';
 import ScrollTrigger from 'react-scroll-trigger';
 import { Cursor, useTypewriter } from 'react-simple-typewriter';
@@ -13,11 +14,11 @@ import hover_img4 from "../../images/hover_img4.jpg";
 import hover_img5 from "../../images/hover_img5.jpg";
 import metrics_tree from '../../images/metrics_tree.png';
 import metrics_tree_filled from '../../images/metrics_tree_filled.png';
-import personal_course from "../../images/personal_course.png";
-import professional_course from "../../images/professional_course.png";
-import Histogram1 from "../../images/Histogram1.png";
-import Histogram2 from "../../images/Histogram2.png";
-import ProgramSpecific3 from "../../images/ProgramSpecific3.png";
+import personal_course from "../../images/personal_course.jpg";
+import professional_course from "../../images/professional_course.jpg";
+import Histogram1 from "../../images/histogram1.jpg";
+import Histogram2 from "../../images/histogram2.jpg";
+import ProgramSpecific3 from "../../images/ProgramSpecific3.jpg";
 import kpi_card_1_front from "../../images/kpi_card_1_front.png"
 import kpi_card_1_back from "../../images/kpi_card_1_back.png"
 import kpi_card_2_front from "../../images/kpi_card_2_front.png"
@@ -26,7 +27,6 @@ import Carousel from '../animations/carousel/Carousel';
 import CardFlip from '../animations/flip/CardFlip';
 import ImgFlip from '../animations/flip/ImgFlip';
 import Footer from "../footer/Footer";
-import "./Homepage.css";
 
 const cardFlipContent = [
     {
