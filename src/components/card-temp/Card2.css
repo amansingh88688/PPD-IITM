@@ -14,7 +14,7 @@ body{
     border-radius: 10px;
     left: 50px;
     top: 70px;
-    transition: 0.5s ease
+    box-shadow: 0px 0px 10px 2px rgba(103, 101, 101, 0.36);
 }
 .sq-med-2{
     width: 150px;
@@ -25,7 +25,7 @@ body{
     border-radius: 10px;
     left: 100px;
     top: 70px;
-    transition: transform 0.5s ease;
+    box-shadow: 0px 0px 10px 2px rgba(103, 101, 101, 0.36);
 }
 .sq-lar-2{
     width: 200px;
@@ -36,6 +36,7 @@ body{
     border-radius: 10px;
     left: 160px;
     top: 45px;
+    box-shadow: 0px 0px 10px 2px rgba(103, 101, 101, 0.36);
 }
 .rectangle-1-2{
     width: 50%;
@@ -52,6 +53,7 @@ body{
     display:flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 0px 0px 10px 2px rgba(103, 101, 101, 0.36);
     
 }
 .rectangle-2-2{
@@ -72,6 +74,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    box-shadow: 0px 0px 10px 2px rgba(103, 101, 101, 0.36);
 }
 .course-name-2{
     margin-bottom: 5px;
