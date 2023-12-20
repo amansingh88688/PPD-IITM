@@ -48,4 +48,15 @@ hr.style14{
         margin-top: 100px;
     }
 }
+@media only screen and (max-width: 430px) {
+    .professional-card{
+        margin-left: 10px;
+    }
+}
+@media only screen and (max-width: 370px) {
+    .professional-card{
+        margin-left: -2%;
+    }
+}
+
 

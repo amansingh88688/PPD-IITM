@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, } from 'react';
 import "./Homepage.css";
 import CountUp from 'react-countup';
 import ScrollTrigger from 'react-scroll-trigger';
@@ -24,6 +24,7 @@ import kpi_card_1_back from "../../images/kpi_card_1_back.png"
 import kpi_card_2_front from "../../images/kpi_card_2_front.png"
 import kpi_card_2_back from "../../images/kpi_card_2_back.png"
 import Carousel from '../animations/carousel/Carousel';
+import Carousel2 from '../animations/carousel/Carousel2';
 import CardFlip from '../animations/flip/CardFlip';
 import ImgFlip from '../animations/flip/ImgFlip';
 import Footer from "../footer/Footer";
@@ -61,6 +62,7 @@ const cardFlipContent = [
     }
 ];
 
+// ------------------------------------------------------------
 const imageFlipContent = [
     {
         id: 1,
@@ -73,10 +75,12 @@ const imageFlipContent = [
         backImage: kpi_card_2_back
     }
 ];
+// ------------------------------------------------------------
 
 
 function Homepage() {
 
+    // ---------------------------------------------------------------------------
     const [text] = useTypewriter({
         words: ['Personal', 'Professional'],
         loop: {},
@@ -87,6 +91,11 @@ function Homepage() {
 
     const [counter1On, setCounter1On] = useState(false);
     const [counter2On, setCounter2On] = useState(false);
+    // ---------------------------------------------------------------------------
+
+    const isMobile = window.innerWidth <= 768;
+
+    // ---------------------------------------------------------------------------
 
 
     return (
@@ -228,9 +237,10 @@ function Homepage() {
 
 
             <div className="fifth-section">
-                <Carousel />
+                {/* <Carousel /> */}
+                {isMobile ? <Carousel2 /> : <Carousel />}
             </div>
-            <div className='sixth-section last-section footer-section'>
+            <div className='last-section'>
                 <Footer />
             </div>
 

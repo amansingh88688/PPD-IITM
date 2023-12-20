@@ -1,3 +1,6 @@
+*{
+  user-select: none;
+}
 .App{
   background-color: #fefefe;
   margin: 0;

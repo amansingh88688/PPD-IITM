@@ -128,45 +128,48 @@ body{
 }
 @media only screen and (max-width: 768px) {
     .card-temp-2{
-        height: 150px;
+        height:350px;
     }
     .sq-small-2{
-        width: 60px;
-        height: 60px;
-        border-radius: 3px;
-        left: 30px;
-        top: 70px;
+        
+        width: 130px;
+        height: 130px;
+        left: 33%;
+        top: 10%;
+        border-radius: 5px;
     }
     .sq-med-2{
-        width: 60px;
-        height: 60px;
-        border-radius: 3px;
-        left: 50px;
-        top: 70px;
+        width: 130px;
+        height: 130px;
+        border-radius: 5px;
+        left: 33%;
+        top: 15%;
     }
     .sq-lar-2{
-        width: 100px;
-        height: 100px;
+        width: 150px;
+        height: 150px;
         border-radius: 5px;
-        left: 78px;
-        top: 49px;
+        left: 30.5%;
+        top: 22%;
     }
     .rectangle-1-2{
-        width: 160px;
-        height: 60px;
-        border-radius: 2px;
-        left: 180px;
-        top: 69px;
-        font-size: 8px;
-        
+        width: 300px;
+        height: 130px;
+        border-radius: 5px;
+        left: 10%;
+        top: 44%;
+        font-size: 13px; 
+        padding-bottom: 20px;
+        justify-content:end;
+        align-items:end;
     }
     .rectangle-2-2{
-        width: 100px;
-        height: 60px;
-        border-radius: 2px;
-        left: 85px;
-        top: 69px;
-        font-size: 13px;  
+        width: 150px;
+        height: 100px;
+        border-radius: 5px;
+        left: 30%;
+        top: 28%;
+        font-size: 17px; 
     }
     .course-name-2{
         margin-bottom: 0;
@@ -178,8 +181,16 @@ body{
     .course-desc-2{
         padding: 0 10px;
     }
-    .reduce-size{
+    .view-more-2{
         font-size: 10px;
+        color: rgb(55, 53, 53);
+        text-decoration: underline;
+    }
+    .RtoL-card-2 {
+        transform: scaleX(1)!important;
+    }
+    .mirror-text-2 {
+        transform: scaleX(1)!important;
     }
 
 }

@@ -48,7 +48,6 @@
 }
 .footer1 p {
     text-align: left;
-
 }
 .linkedin-link, .iitm-link{
     text-decoration: none;
@@ -107,7 +106,7 @@ hr.style-two {
     .footer1 p, .footer3 p {
         letter-spacing: 0.5px;
         margin: 5px;
-        width: fit-content;
+        width: 100%;
         line-height: 1.5;
         font-size: 14px;
     }
@@ -125,6 +124,7 @@ hr.style-two {
     }
     .creator-info{
         font-size: 10px;
+        
     }
 }
 

@@ -8,6 +8,8 @@ import "./Footer.css";
 
 
 const Footer = () => {
+    const year = new Date().getFullYear();
+
 
     return (
         <div className="sixth-section">
@@ -16,7 +18,7 @@ const Footer = () => {
                     <img src={ppd_logo} alt="" class="" />
                     <p class="">
                         <b>Personal & Professional Development, IIT Madras</b> <br />
-                        Connect with us:<Link to="https://www.linkedin.com/in/aman-singh-718493224/" className='linkedin-link'><FaLinkedin /> LinkedIn</Link>
+                        Connect with us:<Link to="https://www.linkedin.com/in/aman-singh-718493224/" target="_blank" rel="noopener noreferrer" className='linkedin-link'><FaLinkedin /> LinkedIn</Link>
                     </p>
                 </div>
                 <div className="footer2" id="foot2">
@@ -33,14 +35,14 @@ const Footer = () => {
                     <p class="">
                         <b>Indian Institute of Technology Madras</b> <br />
                         Chennai, Tamil Nadu-600036<br />
-                        Website: <Link to="https://www.iitm.ac.in/" className='iitm-link'>www.iitm.ac.in</Link>
+                        Website: <Link to="https://www.iitm.ac.in/" target="_blank" rel="noopener noreferrer" className='iitm-link'>www.iitm.ac.in</Link>
                     </p>
                     <img src={iitmlogo} alt="" class="" />
                 </div>
             </div>
             <hr className='style-two'/>
             <div className='creator-info'>
-            © 2023, For any queries regarding this site, contact:<br/>Aman Singh | amankrj12345@gmail.com | +91 8868857492
+            © {year}, For any queries regarding this site, contact:<br/><b>Aman Singh</b> | <b>amankrj12345@gmail.com</b> | <b>+91 8868857492</b> 
             </div>
         </div>
     )

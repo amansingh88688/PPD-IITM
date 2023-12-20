@@ -14,7 +14,6 @@ body{
     border-radius: 10px;
     left: 50px;
     top: 70px;
-    transition: 0.5s ease
 }
 .sq-med{
     width: 150px;
@@ -52,7 +51,7 @@ body{
     display:flex;
     justify-content: center;
     align-items: center;
-    
+    box-shadow: 0px 0px 10px 2px rgba(103, 101, 101, 0.36);   
 }
 .rectangle-2{
     width: 15rem;
@@ -103,7 +102,7 @@ body{
     transform: translateX(70px); 
     transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
     backface-visibility: hidden;
-  }
+}
   
 .animate-card.visible {
 opacity: 1;
@@ -127,45 +126,48 @@ transform: translateX(0);
 }
 @media only screen and (max-width: 768px) {
     .card-temp{
-        height: 150px;
+        height:350px;
     }
     .sq-small{
-        width: 60px;
-        height: 60px;
-        border-radius: 3px;
-        left: 30px;
-        top: 70px;
+        
+        width: 130px;
+        height: 130px;
+        left: 33%;
+        top: 10%;
+        border-radius: 5px;
     }
     .sq-med{
-        width: 60px;
-        height: 60px;
-        border-radius: 3px;
-        left: 50px;
-        top: 70px;
+        width: 130px;
+        height: 130px;
+        border-radius: 5px;
+        left: 33%;
+        top: 15%;
     }
     .sq-lar{
-        width: 100px;
-        height: 100px;
+        width: 150px;
+        height: 150px;
         border-radius: 5px;
-        left: 78px;
-        top: 49px;
+        left: 30.5%;
+        top: 22%;
     }
     .rectangle-1{
-        width: 160px;
-        height: 60px;
-        border-radius: 2px;
-        left: 180px;
-        top: 69px;
-        font-size: 8px;
-        
+        width: 300px;
+        height: 120px;
+        border-radius: 5px;
+        left: 10%;
+        top: 44%;
+        font-size: 13px; 
+        padding-bottom: 20px;
+        justify-content:end;
+        align-items:end;
     }
     .rectangle-2{
-        width: 100px;
-        height: 60px;
-        border-radius: 2px;
-        left: 85px;
-        top: 69px;
-        font-size: 13px;  
+        width: 150px;
+        height: 100px;
+        border-radius: 5px;
+        left: 30%;
+        top: 28%;
+        font-size: 18px; 
     }
     .course-name{
         margin-bottom: 0;
@@ -178,9 +180,15 @@ transform: translateX(0);
         padding: 0 10px;
     }
     .view-more{
-        font-size: 8px;
+        font-size: 10px;
         color: rgb(55, 53, 53);
         text-decoration: underline;
+    }
+    .RtoL-card {
+        transform: scaleX(1)!important;
+    }
+    .mirror-text {
+        transform: scaleX(1)!important;
     }
 
 }

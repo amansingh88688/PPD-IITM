@@ -8,9 +8,9 @@ function Card({num, className, course_name, course_no, course_desc, course_link}
         <div className="sq-small"></div>
         <div className="sq-med"></div>
         <div className="sq-lar"></div>
-        <div className={num%2 === 0 ? 'rectangle-1 mirror-text':'rectangle-1'}>
-            <a href={course_link} className='course-desc'>{course_desc} <span className='view-more'>view more</span></a>
-        </div>
+          <div className={num%2 === 0 ? 'rectangle-1 mirror-text':'rectangle-1'}>
+              <a href={course_link} target="_blank" rel="noopener noreferrer" className='course-desc'>{course_desc} <span className='view-more'>view more</span></a>
+          </div>
         <div className={num%2 === 0 ? 'rectangle-2 mirror-text':'rectangle-2'}>
             <div className='course-name'>{course_name}</div>
             <div className='course-name course-no'>{course_no}</div>
