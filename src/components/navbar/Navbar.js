@@ -3,12 +3,6 @@ import { NavLink } from 'react-router-dom';
 import ppd_logo from "../../images/ppd_logo.png";
 import iitmlogo from "../../images/iitmlogo.png";
 import "./Navbar.css";
-// import Homepage from '../../components/homepage/Homepage';
-// import About from '../../components/about-us/About';
-// import Personal from '../../components/personal-dev/Personal';
-// import Professional from '../../components/professional-dev/Professional';
-// import Blog from '../../components/blog/Blog';
-// import Media from '../../components/media/Media';
 
 
 const Navbar = () => {

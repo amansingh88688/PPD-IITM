@@ -34,6 +34,20 @@
     background: linear-gradient(currentColor 0 0) bottom /var(--d, 0) 3px no-repeat;
     transition:0.3s;
 }
+.div-of-navlink {
+    position: relative;
+} 
+.div-of-navlink::after {
+content: "";
+display: block;
+border-bottom: 0.5px solid rgba(0, 0, 0, 0.475);
+width: 50%;
+position: absolute;
+bottom: 0;
+left: 25%;
+}
+
+
 .div-of-navlink:hover{
     color: black;
     cursor: pointer;

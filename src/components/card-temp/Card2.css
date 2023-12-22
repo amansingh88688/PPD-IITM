@@ -79,10 +79,11 @@ body{
 .course-name-2{
     margin-bottom: 5px;
     padding: 0 5px;
+    color: #06c7fd;
 }
 .course-no-2{
     margin-top: 0px;
-    color: #00AEFF;
+    color: #215871;
 }
 .course-desc-2{
     padding: 10px 40px;

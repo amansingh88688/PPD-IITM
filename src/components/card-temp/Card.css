@@ -67,7 +67,7 @@ body{
     cursor: pointer; 
     font-size: 27px;  
     font-weight: bold;  
-    color: #00A496;
+    color: #10cebe;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -76,20 +76,17 @@ body{
 }
 .course-name{
     margin-bottom: 7px;
-    padding: 0 10px;
+    padding: 0 0px;
 }
 .course-no{
     margin-top: 7px;
-    color: #48B7A1;
+    color: #256659;
 }
 .course-desc{
     padding: 10px 40px;
-    color: #059488; 
+    /* color: #059488;  */
+    color: #00A496; 
     text-decoration: none;
-}
-.view-more{
-    font-size: 13px;
-    color: rgb(55, 53, 53);
 }
 
 .mirror-text {
@@ -180,11 +177,6 @@ transform: translateX(0);
     }
     .course-desc{
         padding: 0 10px;
-    }
-    .view-more{
-        font-size: 10px;
-        color: rgb(55, 53, 53);
-        text-decoration: underline;
     }
     .RtoL-card {
         transform: scaleX(1)!important;
