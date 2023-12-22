@@ -66,7 +66,7 @@ const CourseContent = [
       id: 10,
       course_name: 'Inovative Entrepreneur-2',
       course_no: 'ID5102',
-      desc: 'This course is designed to empower young engineers by instilling a sense of purpose in their careers. It believes that engineering skills can solve many human problems.',
+      desc: 'This course is designed for Immersive entrepreneurial experience. Part 2 will focus on maturing the ideas and customer segments identified into an executable venture.',
       link:'https://drive.google.com/file/d/1SSJyMWS7_kMTykH9daOItn1NCuL3kukt/view?usp=drive_link',
     },
     {
